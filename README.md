@@ -9,34 +9,48 @@ npm install --global typescript
 npm update  --global typescript
 ```
 
-### Create a project
+## How to create a CDK app
 
 ```bash
-mkdir <project-name>
+$ npm --version
 
-cd <project-name>
+$ npm install --global pnpm
 
-cdk init app --language typescript
+$ pnpm --version
 
-npm run build
+$ pnpm setup
 
-cdk ls
+$ source $HOME/.zshrc
 
-# vim path/some-code.ts
+$ pnpm install --global aws-cdk
 
-cdk synth
+$ cdk --verson
 
-cdk deploy
+$ mkdir <app-name>
 
-# vim path/some-code.ts
+$ cd <app-name>
 
-cdk diff
+$ cdk init app --language=typescript
+# or `cdk init lib --language=typescript`
+# or `cdk sample-app --language=typescript`
 
-cdk deploy
+$ pnpm run build      # compile typescript to js
+# or `pnpm run watch` # watch for changes and compile
 
-cdk destroy
+$ pnpm run test       # perform the jest unit tests
+
+$ cdk ls              # list the stacks in the app
+
+$ cdk diff            # compare deployed stack with current state
+
+$ cdk synth           # emits the synthesized CloudFormation template
+
+$ cdk bootstrap       # process of provisioning resources for the AWS CDK
+
+$ cdk deploy          # deploy this stack to your default AWS account/region
+
+$ cdk destroy         # detroy the app's resources
 ```
-
 
 
 ## References
