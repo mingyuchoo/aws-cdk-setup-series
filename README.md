@@ -5,13 +5,6 @@
 ### Prerequisites
 
 ```bash
-npm install --global typescript
-npm update  --global typescript
-```
-
-## How to create a CDK app
-
-```bash
 $ npm --version
 
 $ npm install --global pnpm
@@ -21,7 +14,11 @@ $ pnpm --version
 $ pnpm setup
 
 $ source $HOME/.zshrc
+```
 
+## How to create a CDK app
+
+```bash
 $ pnpm install --global aws-cdk
 
 $ cdk --verson
