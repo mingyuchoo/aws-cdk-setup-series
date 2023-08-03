@@ -1,0 +1,5 @@
+export CDK_DEFAULT_ACCOUNT="<my-aws-account-id>"
+export CDK_DEFAULT_REGION="<my-aws-region>"
+export AWS_ACCESS_KEY_ID="<my-aws-access-key-id>"
+export AWS_SECRET_ACCESS_KEY="<my-aws-secret-access-key>"
+export AWS_SESSION_TOKEN="<my-aws-session-token>"
