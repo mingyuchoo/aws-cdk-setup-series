@@ -10,3 +10,6 @@ cdk.out
 
 # direnv
 .envrc
+
+# build
+target
