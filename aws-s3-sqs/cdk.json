@@ -1,14 +1,14 @@
 {
-  "app": "npx ts-node --prefer-ts-exts src/bin/aws-s3-sqs.ts",
+  "app": "npx ts-node --prefer-ts-exts bin/aws-s3-sqs.ts",
   "watch": {
     "include": [
       "**"
     ],
     "exclude": [
       "README.md",
-      "src/cdk*.json",
-      "src/**/*.d.ts",
-      "src/**/*.js",
+      "cdk*.json",
+      "**/*.d.ts",
+      "**/*.js",
       "tsconfig.json",
       "package*.json",
       "yarn.lock",

@@ -1,4 +1,4 @@
-# Welcome to your CDK TypeScript project
+# aws-s3-sqs
 
 This is a blank project for CDK development with TypeScript.
 

@@ -2,10 +2,10 @@
   "name": "aws-s3-sqs",
   "version": "0.1.0",
   "bin": {
-    "aws-s3-sqs": "src/bin/aws-s3-sqs.js"
+    "aws-s3-sqs": "bin/aws-s3-sqs.js"
   },
   "scripts": {
-    "clean": "rimraf dist cdk.out",
+    "clean": "rimraf target cdk.out",
     "build": "tsc",
     "watch": "tsc -w",
     "test": "jest",
