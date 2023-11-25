@@ -1,4 +1,4 @@
-# Welcome to your CDK TypeScript project
+# README
 
 This is a blank project for TypeScript development with CDK.
 

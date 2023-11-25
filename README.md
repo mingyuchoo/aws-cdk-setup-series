@@ -1,4 +1,4 @@
-# aws-cdk-setup-series
+# README
 
 ## How to use AWS CDK in TypeScript
 
