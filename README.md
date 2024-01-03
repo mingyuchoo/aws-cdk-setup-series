@@ -31,6 +31,8 @@ $ cdk init app --language=typescript
 # or `cdk init lib --language=typescript`
 # or `cdk sample-app --language=typescript`
 
+$ pnpm run clean      # clean target
+
 $ pnpm run build      # compile typescript to js
 # or `pnpm run watch` # watch for changes and compile
 
